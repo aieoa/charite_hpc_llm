@@ -1,4 +1,4 @@
-name: myenv
+name: llm_env
 channels:
   - conda-forge
 dependencies:
@@ -9,6 +9,8 @@ dependencies:
   - sentencepiece
   - huggingface_hub
   - jinja2>=3.1.0
+  - pip
+  - ipykernel
   - pip:
       - transformers>=4.51.0
 
