@@ -11,6 +11,7 @@ dependencies:
   - jinja2>=3.1.0
   - pip
   - ipykernel
+  - pandas
   - pip:
       - transformers>=4.51.0
 
